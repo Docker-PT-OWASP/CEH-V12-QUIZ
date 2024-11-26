@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_30s">30s</string>
+    <string name="restart">restart</string>
+    <string name="exit">exit</string>
+    <string name="_0_60">0/60</string>
+    <string name="play">play</string>
+    <string name="ceh_v12_quiz">CEH V12 Quiz</string>
+    <string name="personal_best">Personal best:</string>
+    <string name="points">Points:</string>
+    <string name="_10s">10s</string>
+</resources>

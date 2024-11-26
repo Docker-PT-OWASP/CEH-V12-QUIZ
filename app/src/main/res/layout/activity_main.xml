@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/python"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:ignore="DiscouragedApi">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CEH v12 Quiz"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="50sp"
+        tools:ignore="HardcodedText,MissingPrefix" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:layout_margin="40sp"
+        android:background="@drawable/start"
+        android:contentDescription="@string/play"
+        android:onClick="startGame"
+        tools:ignore="OnClick,TouchTargetSizeCheck" />
+
+</LinearLayout>
